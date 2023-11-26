@@ -1,0 +1,87 @@
++------------+-----------------+---------------------------------------+
+| City       | Neighbors       | Distance (in km)                      |
++------------+-----------------+---------------------------------------+
+| Mumbai     | Pune, Nashik,    | 210 (Pune), 250 (Nashik), 550 (Ahmed.)|
+|            | Ahmedabad        |                                       |
++------------+-----------------+---------------------------------------+
+| Pune       | Mumbai, Nashik,  | 210 (Mumbai), 230 (Nashik),            |
+|            | Hyderabad, Goa,  | 500 (Hyderabad), 350 (Goa), 550 (Mang.)|
+|            | Mangalore        |                                       |
++------------+-----------------+---------------------------------------+
+| Nashik     | Mumbai, Pune,    | 250 (Mumbai), 230 (Pune), 450 (Indore) |
+|            | Indore           |                                       |
++------------+-----------------+---------------------------------------+
+| Hyderabad  | Pune, Bangalore, | 500 (Pune), 600 (Bangalore),           |
+|            | Chennai, Nagpur, | 550 (Chennai), 500 (Nagpur),           |
+|            | Vijayawada       | 250 (Vijayawada)                      |
++------------+-----------------+---------------------------------------+
+| Indore     | Nashik, Bhopal   | 450 (Nashik), 200 (Bhopal)            |
++------------+-----------------+---------------------------------------+
+| Bhopal     | Indore, Nagpur,  | 200 (Indore), 400 (Nagpur),            |
+|            | Lucknow          | 450 (Lucknow)                         |
++------------+-----------------+---------------------------------------+
+| Bangalore  | Hyderabad,       | 600 (Hyderabad), 350 (Chennai),        |
+|            | Chennai,         | 350 (Mangalore)                       |
+|            | Mangalore        |                                       |
++------------+-----------------+---------------------------------------+
+| Chennai    | Hyderabad,       | 550 (Hyderabad), 350 (Bangalore),      |
+|            | Bangalore,       | 400 (Madurai), 400 (Vijayawada),       |
+|            | Madurai,          | 250 (Puducherry)                      |
+|            | Vijayawada,       |                                       |
+|            | Puducherry        |                                       |
++------------+-----------------+---------------------------------------+
+| Goa        | Pune, Mangalore  | 350 (Pune), 300 (Mangalore)           |
++------------+-----------------+---------------------------------------+
+| Mangalore  | Pune, Goa,        | 550 (Pune), 300 (Goa), 350 (Bangalore),|
+|            | Bangalore, Kochi,| 400 (Kochi), 310 (Kozhikode), 300 (Hub.)|
+|            | Kozhikode, Hubli  |                                       |
++------------+-----------------+---------------------------------------+
+| Kochi      | Mangalore,       | 400 (Mangalore), 200 (Trivandrum),     |
+|            | Trivandrum,      | 180 (Coimbatore), 220 (Kozhikode)      |
+|            | Coimbatore,       |                                       |
+|            | Kozhikode         |                                       |
++------------+-----------------+---------------------------------------+
+| Trivandrum | Kochi            | 200 (Kochi)                           |
++------------+-----------------+---------------------------------------+
+| Ahmedabad  | Mumbai, Jaipur   | 550 (Mumbai), 650 (Jaipur)            |
++------------+-----------------+---------------------------------------+
+| Jaipur     | Ahmedabad, Delhi | 650 (Ahmedabad), 300 (Delhi)           |
++------------+-----------------+---------------------------------------+
+| Delhi      | Jaipur, Agra,    | 300 (Jaipur), 200 (Agra), 350 (Lucknow)|
+|            | Lucknow           |                                       |
++------------+-----------------+---------------------------------------+
+| Agra       | Delhi, Lucknow   | 200 (Delhi), 350 (Lucknow)             |
++------------+-----------------+---------------------------------------+
+| Lucknow    | Agra, Kanpur,    | 350 (Agra), 180 (Kanpur), 300 (Varanasi)|
+|            | Varanasi, Bhopal | 450 (Bhopal)                          |
++------------+-----------------+---------------------------------------+
+| Kanpur     | Lucknow, Varanasi| 180 (Lucknow), 300 (Varanasi)          |
++------------+-----------------+---------------------------------------+
+| Varanasi   | Kanpur, Allahabad| 300 (Kanpur), 250 (Allahabad)          |
++------------+-----------------+---------------------------------------+
+| Allahabad  | Varanasi          | 250 (Varanasi)                        |
++------------+-----------------+---------------------------------------+
+| Bhubaneswar| Raipur            | 250 (Raipur)                          |
++------------+-----------------+---------------------------------------+
+| Raipur     | Bhubaneswar,     | 250 (Bhubaneswar), 250 (Nagpur)       |
+|            | Nagpur            |                                       |
++------------+-----------------+---------------------------------------+
+| Nagpur     | Bhopal, Hyderabad,| 400 (Bhopal), 500 (Hyderabad),        |
+|            | Raipur            | 250 (Raipur)                          |
++------------+-----------------+---------------------------------------+
+| Vijayawada | Hyderabad, Chennai| 250 (Hyderabad), 400 (Chennai)        |
++------------+-----------------+---------------------------------------+
+| Puducherry | Chennai, Trichy  | 250 (Chennai), 200 (Trichy)           |
++------------+-----------------+---------------------------------------+
+| Trichy     | Puducherry,      | 200 (Puducherry), 150 (Madurai)       |
+|            | Madurai           |                                       |
++------------+-----------------+---------------------------------------+
+| Madurai    | Chennai, Trichy, | 400 (Chennai), 150 (Trichy),           |
+|            | Coimbatore        | 250 (Coimbatore)                      |
++------------+-----------------+---------------------------------------+
+| Coimbatore | Madurai, Kochi    | 250 (Madurai), 180 (Kochi)            |
++------------+-----------------+---------------------------------------+
+| Kozhikode  | Mangalore, Kochi  | 310 (Mangalore), 220 (Kochi)          |
++------------+-----------------+---------------------------------------+
+| Hubli      | Mangalore         | 300 (Mangalore)                       |
++------------+-----------------+---------------------------------------+
